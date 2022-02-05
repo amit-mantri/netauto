@@ -1,0 +1,14 @@
+# switch S1 conf file
+mgmt_ip:10.0.0.1
+sdn_controller: 10.20.2.2
+vlans:
+  red:
+    id: 10
+  blue:
+    id: 20
+  green:
+    id: 30
+port:
+ 1: [ 30 ]
+ 2: [ 20 ]
+ 3: [ 10, 20]
