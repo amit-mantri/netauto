@@ -1,5 +1,5 @@
 # switch S1 conf file
-mgmt_ip:10.0.0.1
+mgmt_ip:10.0.0.2
 sdn_controller: 10.20.2.2
 vlans:
   red:
